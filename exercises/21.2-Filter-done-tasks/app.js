@@ -10,3 +10,8 @@ let tasks = [
 ];
 
 // Your code here
+let tasksDone = tasks.filter(function(taskD) {
+	return taskD.done;
+});
+
+console.log(tasksDone);
